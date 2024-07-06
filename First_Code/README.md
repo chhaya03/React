@@ -1,10 +1,10 @@
 # React + Vite
 
 <h1>Introduction to Components</h1>
-<p>Components help us write reusable, modular and better organized code.</p>
+<p>Components help us write reusable, modular and better organized code.</p> <br>
 
-Class Components
-• Stateful: Can manage state.
+<h1>Class Components</h1> <br>
+• Stateful: Can manage state. 
 • Lifecycle: Access to lifecycle methods.
 • Verbose: More boilerplate code.
 • Not Preferred anymore.
