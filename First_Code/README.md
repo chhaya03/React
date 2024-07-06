@@ -9,13 +9,13 @@
 • Verbose: More boilerplate code.<br>
 • Not Preferred anymore.<br>
 
-Functional Components<br>
+<h1>Functional Components</h1> <br>
 • Initially stateless.<br>
 • Can use Hooks for state and effects.<br>
 • Simpler and more concise.<br>
 • More Popular<br>
 
-Exporting components :<br>
+<h1>Exporting components :</h1> <br>
 
 1. Enables the use of a component in other parts.<br>
 2. Default Export: Allows exporting a single component as the default from a module.<br>
