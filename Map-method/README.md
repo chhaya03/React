@@ -11,5 +11,7 @@ Currently, two official plugins are available:
 1. Purpose: Render lists from array data.<br>
 2. JSX Elements: Transform array items into JSX.<br>
 
-
+<br>
+<br>
+<br>
 In React, the map method is commonly used to iterate over an array and render a list of components or elements. This method is part of JavaScript's array prototype and is essential for handling collections of data in a React application
