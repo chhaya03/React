@@ -11,8 +11,10 @@
 </ul>
 
 <p>
+  in terminal for installation <br>
 1. Install: npm i bootstrap@5.3.2
-
+ <br>
+  in main.jsx
 2. import:
 import "bootstrap/dist/css/bootstrap.min.css";
 </p>
