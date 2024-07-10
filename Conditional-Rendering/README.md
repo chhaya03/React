@@ -1,8 +1,21 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<h1> Conditional Rendering
+</h1><br>
 
-Currently, two official plugins are available:
+<h1>Conditional Rendering</h1><br>
+• Displaying content based on certain conditions.<br>
+• Allows for dynamic user interfaces.<br>
+<h1>Methods</h1><br>
+• If-else statements: Choose between two blocks of content.<br>
+• Ternary operators: Quick way to choose between two options. <br>
+• Logical operators: Useful for rendering content when a condition is true.<br>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<h1>Benefits</h1><br>
+• Enhances user experience.<br>
+• Reduces unnecessary rendering.<br>
+• Makes apps more interactive and responsive
+
+
+
+
