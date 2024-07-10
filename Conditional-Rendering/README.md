@@ -1,7 +1,6 @@
 # React + Vite
 
-<h1> Conditional Rendering
-</h1><br>
+
 
 <h1>Conditional Rendering</h1><br>
 • Displaying content based on certain conditions.<br>
