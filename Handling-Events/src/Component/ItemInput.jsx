@@ -1,6 +1,6 @@
 import css from "./ItemInput.module.css";
 
-function ItemInput() {
+const ItemInput = () => {
   const handleOnChange = (event) => {
     console.log(event.target.value);
   };
@@ -13,6 +13,6 @@ function ItemInput() {
       onChange={handleOnChange}
     />
   );
-}
+};
 
 export default ItemInput;

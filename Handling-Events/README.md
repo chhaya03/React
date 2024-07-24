@@ -1,9 +1,8 @@
 # React + Vite
 
-<h1> Handling Events</h1><br>
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-1. React events use camelCase, e.g., onClick.<br>
-2. Uses synthetic events, not direct browser events.<br>
-3. Event handlers can be functions or arrow functions.<br>
-4. Use onChange for controlled form inputs.<br>
-5. Avoid inline arrow functions in JSX for performance.
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
