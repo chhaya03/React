@@ -15,3 +15,9 @@ This template provides a minimal setup to get React working in Vite with HMR and
 8. Lifting state up: share state between components by moving it to their 
 closest common ancestor
 
+
+![image](https://github.com/user-attachments/assets/e6450a44-efe7-4a12-8988-e1c39370e2db)
+
+
+
+
