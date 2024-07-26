@@ -24,3 +24,19 @@
 4. IT saves a lot of time, cheezein aasan hai, pahele se likhi hui hain<br>
 
 
+
+<h1>State vs Props</h1>
+
+<h1>State:</h1><br>
+• Local and mutable data within a component.<br>
+• Initialized within the component.<br>
+• Can change over time.<br>
+• Causes re-render when updated.<br>
+• Managed using useState in functional components.<br>
+
+
+<h1>Props:</h1><br>
+• Passed into a component from its parent.<br>
+• Read-only (immutable) within the receiving component.<br>
+• Allow parent-to-child component communication.<br>
+• Changes in props can also cause a re-render.<br>
