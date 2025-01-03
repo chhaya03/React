@@ -16,6 +16,7 @@ function App() {
 
   const handlebyButton = (item) => {
     console.log(`${item} being bought`);
+    alert("thank u for shopping!");
   };
 
   return (
