@@ -40,3 +40,74 @@
 • Read-only (immutable) within the receiving component.<br>
 • Allow parent-to-child component communication.<br>
 • Changes in props can also cause a re-render.<br>
+
+<h1>React-icon Library
+</h1><br>
+1. You can use a lot of icons without managing 
+them.<br>
+2. Install Package
+npm install react-icons –save<br>
+3. Use icon:
+import {IconName} from "react-icons/fc";
+
+
+<h1>How React Works</h1><br>
+Root Component: • The App is the main or root component of a React application.<br><br>
+• It's the starting point of your React component tree.<br>
+Virtual DOM:<br>
+• React creates an in-memory structure called the virtual DOM.<br>
+• Different from the actual browser DOM.<br>
+• It's a lightweight representation where each node stands for a 
+component and its attributes.<br>
+Reconciliation Process:<br>
+• When component data changes, React updates the virtual DOM's 
+state to mirror these changes.<br>
+• React then compares the current and previous versions of the 
+virtual DOM.<br>
+• It identifies the specific nodes that need updating.<br>
+• Only these nodes are updated in the real browser DOM, making it 
+efficient
+
+
+<h1>React and ReactDOM: </h1>
+• The actual updating of the browser's DOM isn't done by React itself.<br>
+• It's handled by a companion library called react-dom.<br>
+<h3>Root Element:</h3>
+• The root div acts as a container for the React app.<br>
+• The script tag is where the React app starts executing.<br>
+• If you check main.tsx, the component tree is rendered inside this 
+root element.
+<h3>Strict Mode Component:</h3> 
+• It's a special component in React.<br>
+• Doesn't have a visual representation.<br>
+• Its purpose is to spot potential issues in your React app.<br>
+<h3>Platform Independence:</h3>
+• React's design allows it to be platform-agnostic.<br>
+• While react-dom helps build web UIs using React, ReactNative can 
+be used to craft mobile app UIs.
+
+
+
+
+<h1>Using Forms
+</h1>
+<h3>State Management:</h3> Each input's state 
+is stored in the component's state.
+ <h3>Handling Changes:</h3> Use onChange to 
+detect input changes.
+ <h3>Submission:</h3> Utilize onSubmit for form 
+submissions and prevent default with 
+event.preventDefault().
+ <h3>Validation:</h3> Implement custom 
+validation or use third-party libraries
+
+
+<h1>Use Ref</h1>
+1. useRef allows access to DOM elements and 
+retains mutable values without re-renders.<br>
+2. Used with the ref attribute for direct DOM 
+interactions.<br>
+3. Can hold previous state or prop values.<br>
+4. Not limited to DOM references; can hold any 
+value.<br>
+5. Refs can be passed as props also
