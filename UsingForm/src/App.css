@@ -1,0 +1,8 @@
+.form{
+  display: block;
+ min-height: 800px;
+ min-width: 60%;
+ background-color: aqua;
+ align-content: center;
+}
+
