@@ -111,3 +111,30 @@ interactions.<br>
 4. Not limited to DOM references; can hold any 
 value.<br>
 5. Refs can be passed as props also
+
+
+<h1>Update state from Previous State
+</h1>
+• Spread Operator: Use to maintain 
+immutability when updating arrays or 
+objects.<br>
+• Functional Updates: Use 
+(existingPosts) => [postData, ...existingPosts] 
+to avoid stale values during asynchronous 
+updates
+
+<h1>Context API
+</h1>
+1. Prop Drilling: Context API addresses prop drilling; 
+component composition is an alternative.<br>
+2. Folder Setup: Use a store folder for context files.<br>
+3. Initialization: Use React.createContext with initial state 
+and export it.<br>
+4. Provider: Implement with contextName.Provider in 
+components.<br>
+5. Access Value: Use the useContext hook.<br>
+6. Dynamic Data: Combine context value with state.<br>
+7. Export Functions: Context can also export functions for 
+actions<br>
+8. Logic Separation: This helps keep the UI and business 
+logic separate from each other.<br>
