@@ -138,3 +138,37 @@ components.<br>
 actions<br>
 8. Logic Separation: This helps keep the UI and business 
 logic separate from each other.<br>
+
+
+<h1>Use Reducer
+</h1>
+1. useReducer is a hook in React that offers more control over <br>
+state operations compared to useState, especially for 
+complex state logic.<br>
+2. Components: It involves two main components:<br>
+  => Reducer: A pure function that takes the current state and 
+   an action and returns a new state.<br>
+  => Action: An object describing what happened, typically 
+having a type property.<br>
+3. Initialization: It's invoked as 
+const [state, dispatch] = useReducer(reducer, initialState).<br>
+4. Dispatch: Actions are dispatched using the dispatch 
+function, which invokes the reducer with the current state 
+and the given action.<br>
+5. Use Cases: Particularly useful for managing state in large 
+components or when the next state depends on the 
+previous one.<br>
+6. Predictable State Management: Due to its strict structure, it 
+leads to more predictable and maintainable state 
+management.<br>
+
+
+<h1>Data fetching using Fetch
+</h1>
+1. fetch: Modern JavaScript API for network requests.<br>
+2. Promise-Based: Returns a Promise with a Response 
+object.<br>
+3. Usage: Default is GET. For POST use method: 'POST'<br>
+4. Response: Use .then() and response.json() for JSON data.<br>
+5. Errors: Doesn't reject on HTTP errors. Check response.ok.<br>
+6. Headers: Managed using the Headers API.
