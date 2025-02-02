@@ -172,3 +172,32 @@ object.<br>
 4. Response: Use .then() and response.json() for JSON data.<br>
 5. Errors: Doesn't reject on HTTP errors. Check response.ok.<br>
 6. Headers: Managed using the Headers API.
+
+
+<h1>The useEffect Hook
+</h1>
+1. In function-based components, useEffect handles 
+side effects like data fetching or event listeners.<br>
+2. useEffect runs automatically after every render by 
+default.<br>
+3. By providing a dependency array, useEffect will only 
+run when specified variables change. An empty array 
+means the effect runs once.<br>
+4. Multiple useEffect hooks can be used in a single 
+component for organizing different side effects 
+separately<br>
+
+
+<h1>The useCallback Hook
+</h1>
+
+1. Memoization: Preserves function across 
+renders to prevent unnecessary re-renders.<br>
+2. Optimization: Enhances performance in 
+components with frequent updates.<br>
+3. Dependency Array: Recreates the function
+only when specific dependencies change.<br>
+4. Event Handlers: Used to keep consistent 
+function references for child components.<br>
+5. With useEffect: Prevents infinite loops by 
+maintaining function references.<br>
