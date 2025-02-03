@@ -201,3 +201,45 @@ only when specific dependencies change.<br>
 function references for child components.<br>
 5. With useEffect: Prevents infinite loops by 
 maintaining function references.<br>
+
+
+
+<h1>The useMemo Hook
+</h1>
+1. Memoization: useMemo caches the result of 
+expensive calculations to enhance performance.<br>
+2. Re-computation: Only re-computes the memoized
+value when specific dependencies change.<br>
+3. Optimization: Helps prevent unnecessary 
+recalculations, improving component rendering 
+efficiency.<br>
+4. Dependency Array: Uses an array of 
+dependencies to determine when to recompute 
+the cached value.<br>
+5. Comparison with useCallback: While useCallback
+memoizes functions, useMemo memoizes values 
+or results of functions.<br>
+6. Best Use: Ideal for intensive computations or 
+operations that shouldn't run on every render<br>
+
+
+
+<h1>Custom Hooks</h1>
+1. Reusable Logic: Custom hooks allow you to 
+extract and reuse component logic across multiple 
+components.<br>
+2. Naming Convention: Typically start with "use" 
+(e.g., useWindowSize, useFetch).<br>
+3. Combining Hooks: Custom hooks can combine 
+multiple built-in hooks like useState, useEffect, 
+and others.<br>
+4. Sharing State: Enables sharing of stateful logic 
+without changing component hierarchy.<br>
+5. Isolation: Helps in isolating complex logic, making 
+components cleaner and easier to maintain.<br>
+6. Custom Return Values: Can return any value 
+(arrays, objects, or any other data type) based on 
+requirements<br>
+
+
+<h1>React Router</h1>
