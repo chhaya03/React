@@ -243,3 +243,26 @@ requirements<br>
 
 
 <h1>React Router</h1>
+1. Installation: Use npm install react-router-dom.<br>
+2. We are going to use the latest version which is 6+ <br>
+3. RouterProvider: Wraps the app for routing 
+capabilities.<br>
+4. createBrowserRouter: helps creating the mapping 
+for router provider.<br>
+5. Declarative Routing: Easily define application 
+routes.<br>
+6. Routes are React components<br>
+
+
+<h1>Data fetching using loader
+</h1>
+1. Loader method can be used to load 
+data before a particular route is 
+executed.<br>
+2. The loader method must return the 
+data that is loaded or promise. <br>
+3. Data is available in component and all 
+the child components.<br>
+4. useLoaderData hook can be used to 
+get the fetched data.<br>
+5. Loading state can also be used.<br>
