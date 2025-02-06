@@ -266,3 +266,22 @@ the child components.<br>
 4. useLoaderData hook can be used to 
 get the fetched data.<br>
 5. Loading state can also be used.<br>
+
+<h1>Submitting data using action</h1>
+1. Action method can be used to perform an 
+action on submission of Forms.<br>
+2. Custom Form component need to be used
+along with name attribute for all inputs.<br>
+3. Action function will get an data object. To 
+generate correct request object 
+method=“post” attribute should be used.<br>
+4. Data.request.formData() method can be 
+used to get form data Object.<br>
+5. Object.fromEntries(formData) can be used 
+to get actual input data.<br>
+6. redirect() response can be returned for 
+navigation after submission.<br>
+
+<h1>What is Redux
+</h1>
+
