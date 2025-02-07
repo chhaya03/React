@@ -284,4 +284,33 @@ navigation after submission.<br>
 
 <h1>What is Redux
 </h1>
+1. State management for cross component or app-wide state.<br>
+2. Redux is a predictable state management library for JavaScript apps.<br>
+3. Local State vs Cross-component state vs App-Wide state<br>
+4. useState or useReducer vs useState with prop drilling vs useState or 
+useContext or Redux<br>
+
+<h1>React-Context vs Redux
+</h1>
+1. You can use both.<br>
+2. Setup and Coding is tough especially if you have multiple context 
+providers.<br>
+3. Performance is slow. Context should only be used for things that rarely 
+change. On the other hand Redux has great performance.<br>
+4. If these things don’t matter to you then you can choose not to use redux 
+and stay with React-Context<br>
+
+
+<h1> How Redux Works
+</h1>
+1. Single Source: Uses a single central store to 
+maintain the entire application's state.<br>
+2. Actions: Components never directly change the 
+store. Changes to state are made through 
+dispatched actions, which describe events.<br>
+3. Reducers: Actions are processed by reducers, 
+pure functions that return the new state.<br>
+4. Immutable: State is immutable; every change 
+results in a new state object. <br>
+5. This is different from useReducer hook.<br>
 
