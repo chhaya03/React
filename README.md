@@ -314,3 +314,17 @@ pure functions that return the new state.<br>
 results in a new state object. <br>
 5. This is different from useReducer hook.<br>
 
+
+<h1>Working with Redux
+</h1>
+1. npm init –y<br>
+2. npm install redux<br>
+3. import in node Const redux = require(‘redux’);<br>
+4. We need to setup all 4 basic things:<br>
+1. Reducer<br>
+2. Store<br>
+3. Subscriber<br>
+4. Actions<br>
+5. Node redux-demo.js command to run node server<br>
+
+
